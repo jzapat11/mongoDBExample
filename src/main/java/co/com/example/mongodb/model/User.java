@@ -1,7 +1,15 @@
 package co.com.example.mongodb.model;
 
-public class User {
+import java.io.Serializable;
 
+import com.mongodb.BasicDBObject;
+
+public class User extends BasicDBObject implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String id;
 	private String name;
 	private String phone;
