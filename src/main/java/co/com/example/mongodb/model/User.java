@@ -1,10 +1,7 @@
 package co.com.example.mongodb.model;
 
-import java.io.Serializable;
 
-import com.mongodb.BasicDBObject;
-
-public class User extends BasicDBObject implements Serializable{
+public class User{
 
 	/**
 	 * 
@@ -46,5 +43,4 @@ public class User extends BasicDBObject implements Serializable{
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
 }
