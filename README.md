@@ -10,5 +10,6 @@ This project is intended to be an example project to introduce myselft into Mong
   1.  Clone this repo.
   2.  build the project with mvn.
   3.  Start Mongo BD on your host.
-  4.  
+  4.  Create new database called `newbd`
+  5.  Run the unit test to prove that the insertion in that bd is working correctly.
   
