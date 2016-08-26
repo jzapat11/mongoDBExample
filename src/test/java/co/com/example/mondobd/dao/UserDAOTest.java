@@ -11,10 +11,10 @@ public class UserDAOTest {
 	@Test
 	public void insertUser() {
 		User user = new User();
-		user.setId("43190038");
-		user.setName("Lina Marcela Parra");
-		user.setPhone("3014380925");
-		user.setEmail("linita21@gmail.com");
+		user.setId("343434343");
+		user.setName("Surname Lastname");
+		user.setPhone("233432323");
+		user.setEmail("anyemail@anyhost.com");
 		UserDAO userDAO = new UserDAO();
 		boolean inserted;
 		inserted = userDAO.insertUser(user);
